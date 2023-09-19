@@ -27,124 +27,68 @@
   margin-right: calc(var(--padding-size) * -1);
 }
 
-.col-1 {
-  --width: calc(100% / 12 * 1);
-
+.row > * {
   flex-basis: var(--width);
   max-width: var(--width);
-
   padding-left: var(--padding-size);
   padding-right: var(--padding-size);
+}
+
+/* 
+Extra small	None	<576px
+Small	sm	≥576px
+Medium	md	≥768px
+Large	lg	≥992px
+Extra large	xl	≥1200px
+Extra extra large	xxl	≥1400px
+ */
+
+.col-1 {
+  --width: calc(100% / 12 * 1);
 }
 
 .col-2 {
   --width: calc(100% / 12 * 2);
-
-  flex-basis: var(--width);
-  max-width: var(--width);
-  
-  padding-left: var(--padding-size);
-  padding-right: var(--padding-size);
 }
 
 .col-3 {
   --width: calc(100% / 12 * 3);
-
-  flex-basis: var(--width);
-  max-width: var(--width);
-  
-  padding-left: var(--padding-size);
-  padding-right: var(--padding-size);
 }
 
 .col-4 {
   --width: calc(100% / 12 * 4);
-
-  flex-basis: var(--width);
-  max-width: var(--width);
-  
-  padding-left: var(--padding-size);
-  padding-right: var(--padding-size);
 }
 
 .col-5 {
   --width: calc(100% / 12 * 5);
-
-  flex-basis: var(--width);
-  max-width: var(--width);
-  
-  padding-left: var(--padding-size);
-  padding-right: var(--padding-size);
 }
 
 .col-6 {
   --width: calc(100% / 12 * 6);
-
-  flex-basis: var(--width);
-  max-width: var(--width);
-  
-  padding-left: var(--padding-size);
-  padding-right: var(--padding-size);
 }
 
 .col-7 {
   --width: calc(100% / 12 * 7);
-
-  flex-basis: var(--width);
-  max-width: var(--width);
-  
-  padding-left: var(--padding-size);
-  padding-right: var(--padding-size);
 }
 
 .col-8 {
   --width: calc(100% / 12 * 8);
-
-  flex-basis: var(--width);
-  max-width: var(--width);
-  
-  padding-left: var(--padding-size);
-  padding-right: var(--padding-size);
 }
 
 .col-9 {
   --width: calc(100% / 12 * 9);
-
-  flex-basis: var(--width);
-  max-width: var(--width);
-  
-  padding-left: var(--padding-size);
-  padding-right: var(--padding-size);
 }
 
 .col-10 {
   --width: calc(100% / 12 * 10);
-
-  flex-basis: var(--width);
-  max-width: var(--width);
-  
-  padding-left: var(--padding-size);
-  padding-right: var(--padding-size);
 }
 
 .col-11 {
   --width: calc(100% / 12 * 11);
-
-  flex-basis: var(--width);
-  max-width: var(--width);
-  
-  padding-left: var(--padding-size);
-  padding-right: var(--padding-size);
 }
 
 .col-12 {
   --width: calc(100% / 12 * 12);
-
-  flex-basis: var(--width);
-  max-width: var(--width);
-  
-  padding-left: var(--padding-size);
-  padding-right: var(--padding-size);
 }
 
 @media screen and (min-width: 576px) {
@@ -154,122 +98,50 @@
 
   .col-sm-1 {
     --width: calc(100% / 12 * 1);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-  
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-sm-2 {
     --width: calc(100% / 12 * 2);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-sm-3 {
-    --width: calc(100% / 12 * 3);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
+    --width: calc(100% / 12 * 3); 
   }
   
   .col-sm-4 {
     --width: calc(100% / 12 * 4);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-sm-5 {
     --width: calc(100% / 12 * 5);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-sm-6 {
     --width: calc(100% / 12 * 6);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-sm-7 {
     --width: calc(100% / 12 * 7);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-sm-8 {
     --width: calc(100% / 12 * 8);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-sm-9 {
     --width: calc(100% / 12 * 9);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-sm-10 {
     --width: calc(100% / 12 * 10);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-sm-11 {
     --width: calc(100% / 12 * 11);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-sm-12 {
     --width: calc(100% / 12 * 12);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
 }
 
@@ -280,122 +152,50 @@
 
   .col-md-1 {
     --width: calc(100% / 12 * 1);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-  
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-md-2 {
     --width: calc(100% / 12 * 2);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-md-3 {
     --width: calc(100% / 12 * 3);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-md-4 {
     --width: calc(100% / 12 * 4);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-md-5 {
     --width: calc(100% / 12 * 5);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-md-6 {
     --width: calc(100% / 12 * 6);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-md-7 {
     --width: calc(100% / 12 * 7);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-md-8 {
     --width: calc(100% / 12 * 8);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-md-9 {
     --width: calc(100% / 12 * 9);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-md-10 {
     --width: calc(100% / 12 * 10);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-md-11 {
     --width: calc(100% / 12 * 11);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-md-12 {
     --width: calc(100% / 12 * 12);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
 }
 
@@ -406,122 +206,50 @@
 
   .col-lg-1 {
     --width: calc(100% / 12 * 1);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-  
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-lg-2 {
     --width: calc(100% / 12 * 2);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-lg-3 {
     --width: calc(100% / 12 * 3);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-lg-4 {
     --width: calc(100% / 12 * 4);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-lg-5 {
     --width: calc(100% / 12 * 5);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-lg-6 {
     --width: calc(100% / 12 * 6);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-lg-7 {
     --width: calc(100% / 12 * 7);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-lg-8 {
     --width: calc(100% / 12 * 8);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-lg-9 {
     --width: calc(100% / 12 * 9);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-lg-10 {
     --width: calc(100% / 12 * 10);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-lg-11 {
     --width: calc(100% / 12 * 11);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-lg-12 {
     --width: calc(100% / 12 * 12);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
 }
 
@@ -532,122 +260,50 @@
 
   .col-xl-1 {
     --width: calc(100% / 12 * 1);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-  
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-xl-2 {
-    --width: calc(100% / 12 * 2);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
+    --width: calc(100% / 12 * 2); 
   }
   
   .col-xl-3 {
     --width: calc(100% / 12 * 3);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-xl-4 {
     --width: calc(100% / 12 * 4);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-xl-5 {
     --width: calc(100% / 12 * 5);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-xl-6 {
     --width: calc(100% / 12 * 6);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-xl-7 {
     --width: calc(100% / 12 * 7);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-xl-8 {
     --width: calc(100% / 12 * 8);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-xl-9 {
     --width: calc(100% / 12 * 9);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-xl-10 {
     --width: calc(100% / 12 * 10);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-xl-11 {
     --width: calc(100% / 12 * 11);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-xl-12 {
-    --width: calc(100% / 12 * 12);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
+    --width: calc(100% / 12 * 12); 
   }
 }
 
@@ -658,121 +314,49 @@
 
   .col-xxl-1 {
     --width: calc(100% / 12 * 1);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-  
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-xxl-2 {
     --width: calc(100% / 12 * 2);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-xxl-3 {
-    --width: calc(100% / 12 * 3);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
+    --width: calc(100% / 12 * 3); 
   }
   
   .col-xxl-4 {
     --width: calc(100% / 12 * 4);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-xxl-5 {
     --width: calc(100% / 12 * 5);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-xxl-6 {
     --width: calc(100% / 12 * 6);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-xxl-7 {
     --width: calc(100% / 12 * 7);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-xxl-8 {
     --width: calc(100% / 12 * 8);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-xxl-9 {
     --width: calc(100% / 12 * 9);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-xxl-10 {
     --width: calc(100% / 12 * 10);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-xxl-11 {
     --width: calc(100% / 12 * 11);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
   
   .col-xxl-12 {
     --width: calc(100% / 12 * 12);
-  
-    flex-basis: var(--width);
-    max-width: var(--width);
-    
-    padding-left: var(--padding-size);
-    padding-right: var(--padding-size);
   }
 }
