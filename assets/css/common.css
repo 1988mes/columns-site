@@ -47,6 +47,7 @@
   padding: 20px;
   width: 180px;
   border: 0;
+  text-align: center;
   text-transform: uppercase;
   background: var(--accent-color);
   color: var(--second-bg-color);
@@ -64,6 +65,10 @@
   -webkit-box-orient: vertical;
   -webkit-line-clamp: var(--visible-lines);
   overflow: hidden;
+}
+
+.jc-center {
+  justify-content: center;
 }
 
 @media screen and (min-width: 576px) {
